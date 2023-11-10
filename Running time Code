@@ -1,0 +1,17 @@
+    public static int runningTime(List<Integer> arr) {
+    // Write your code here
+    int shifts = 0;
+    int n = arr.size();
+    for(int i = 1; i < n; i++) {
+        int index = i - 1 ;
+        int value = arr.get(i);
+        while(index >= 0 && value < arr.get(index)) {
+            arr.set(index + 1, arr.get(index));
+            index = index - 1;
+            shifts++;
+        }
+        arr.set(index + 1, value);
+    }
+    return shifts;
+}
+}
