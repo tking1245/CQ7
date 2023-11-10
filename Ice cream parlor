@@ -1,0 +1,11 @@
+      public static Integer icecreamParlor(int m, List<Integer> arr) {
+    // Write your code here
+PSeudocode: 
+        for i in length of arr:
+          for j in range(i+1, lenghth(arr)):
+            if arr[i] + arr[j] == m:
+                return result (i+1 and j+1)
+        Def having trouble (IDK)
+        return result;
+        
+    }
