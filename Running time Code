@@ -15,3 +15,7 @@
     return shifts;
 }
 }
+
+
+The time complexity of this algorithm is O(n^2)
+The Space complexity of this algorithm is O(1) I think?
